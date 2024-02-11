@@ -52,7 +52,20 @@ If VMs are created using only private IPs, they can still be accessed locally wi
 4. **Set Up Health Check**
    - Define health probes to monitor the health of the backend VMs.
 ![image](https://github.com/Mouhamed-dridi/azure-load-balancer-public/assets/53900924/8e93ec64-e912-4579-b1af-d8bebf69d61e)
+   
 
-5. **Create Load Balancer Rules**
+
+6. **Create Load Balancer Rules**
    - Configure load balancing rules to distribute incoming traffic among the backend VMs.
 ![image](https://github.com/Mouhamed-dridi/azure-load-balancer-public/assets/53900924/0a0f69c6-070c-4b8f-8fe5-c32a4258dc37)
+
+
+
+7.  **Befor test**
+ - its recommande to allow the http and https
+   ![image](https://github.com/Mouhamed-dridi/azure-load-balancer-public/assets/53900924/e4434408-955f-41a9-a3ff-0d2050fe2fdf)
+
+
+   8. **Befor test**
+      - for testing use the public ip of the loadbalincer just put ip bulic in brwoser and can use also private browser
+        ![image](https://github.com/Mouhamed-dridi/azure-load-balancer-public/assets/53900924/4422fc8c-9b82-4bcd-a26d-af56770ecc45)
